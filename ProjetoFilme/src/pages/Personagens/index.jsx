@@ -2,6 +2,7 @@ import './index.css'
 import rapunzelImg from '../img/rapunzel.jpg';
 import flynnImg from '../img/flynn.jpg';
 import gothelImg from '../img/gothel.jpg';
+import pascalImg from '../img/pascal.jpg';
 
 function Personagens() {
     return (
@@ -28,6 +29,13 @@ function Personagens() {
             <p className="personagens-description">Idade: Aparentemente 40 anos (na verdade mais de 400 anos)</p>
             <p className="personagens-description">Personalidade: Manipuladora, egoísta e cruel</p>
             <p className="personagens-description">Aparência: Mulher de cabelos castanhos escuros, olhos verdes, veste capa preta e usa um capuz.</p>
+
+            <h2>Pascal</h2> <br/>
+            <img src={pascalImg} alt='Pascal'></img>
+            <p className="personagens-description">Nome: Pascal</p>
+            <p className="personagens-description">Espécie: Camaleão</p>
+            <p className="personagens-description">Personalidade: Leal, carinhoso, cômico e protetor</p>
+            <p className="personagens-description">Aparência: Camaleão pequeno de cores vibrantes que muda de cor de acordo com seu estado emocional, inicialmente branco/claro.</p>
         </div>
     )
 }
