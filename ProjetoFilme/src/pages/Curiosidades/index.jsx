@@ -9,24 +9,58 @@ import musicaImg from '../img/musica.jpg';
 function Curiosidades(){
     return(
         <div className="curiosidades">
-            <h1>Curiosidades</h1>
-            <img src={curiosidadeImg} alt='Curiosidade'></img>
-            <p className="curiosidades-description">Conheça curiosidades sobre o filme Enrolados.</p>
-            <h2>Tamanho do cabelo de Rapunzel</h2>
-            <img src={cabeloImg} alt='Cabelo de Rapunzel'></img>
-            <p>A princesa protagonista tem mais de 21 metros de cabelos e mais de 100 mil tranças individuais. Por conta da grandiosidade das madeixas, o estúdio precisou de uma nova tecnologia para simular o movimento dos fios, isso porque, nenhuma personagem havia tido um cabelo tão enorme em outras produções até então. Foi a primeira animação da Disney com CGI.</p>
-            <h2>Ação com cabelos</h2>
-            <img src={doarImg} alt='Doação de cabelos'></img>
-            <p>Segundo conta o Camundongo, ao longo do desenvolvimento do filme, dez mulheres da produção optaram por deixar o cabelo crescer. Ao final desse processo, cada uma delas doou 25 centímetros do comprimento para uma instituição que cria perucas com cabelos humanos para pessoas que perdem os fios devido a doenças.</p>
-            <h2>50º Animação</h2>
-            <img src={florImg} alt='Flor'></img>
-            <p>Além de ser um clássico da Disney, o filme foi uma marca importante para a história do estúdio: Enrolados foi a 50º animação da Walt Disney Pictures.</p>
-            <h2>Nome original de Flynn</h2>
-            <img src={riderImg} alt='Rider'></img>
-            <p>De acordo com o Adoro Cinema, o nome originalmente pensado para o par romântico de Rapunzel era Bastian. No entanto, ao final, Flynn Rider foi o escolhido em referência ao ator Errol Flynn, quem ficou reconhecido mundialmente por interpretar um ladrão simpático em As Aventuras de Robin Hood (1938).</p>
-            <h2>Trilha sonora</h2>
-            <img src={musicaImg} alt='Música'></img>
-            <p>Responsável pela trilha sonora do filme, o compositor Alan Menken baseou as músicas da animação no rock produzido nos anos 1960. A faixa, “I See The Light,” chegou a ser indicada ao Oscar em Melhor Canção Original, como lembra o Adoro Cinema.</p>
+            <p className="curiosidades-description">
+                Conheça curiosidades sobre o filme Enrolados
+            </p>
+
+            <div className="curiosidades-container">
+
+                <div className="card">
+                    <img src={cabeloImg} alt='Cabelo de Rapunzel' />
+                    <h2>Cabelo da Rapunzel</h2>
+                    <p>
+                        Rapunzel tem mais de 21 metros de cabelo! A Disney precisou criar
+                        uma tecnologia nova só pra animar os fios.
+                    </p>
+                </div>
+
+                <div className="card">
+                    <img src={doarImg} alt='Doação de cabelo' />
+                    <h2>Doação de cabelo</h2>
+                    <p>
+                        Durante a produção, mulheres da equipe deixaram o cabelo crescer
+                        e depois doaram para instituições que fazem perucas.
+                    </p>
+                </div>
+
+                <div className="card">
+                    <img src={florImg} alt='Flor' />
+                    <h2>50ª animação</h2>
+                    <p>
+                        Enrolados foi a 50ª animação da Disney, marcando um momento
+                        importante na história do estúdio.
+                    </p>
+                </div>
+
+                <div className="card">
+                    <img src={riderImg} alt='Flynn Rider' />
+                    <h2>Nome do Flynn</h2>
+                    <p>
+                        O nome Flynn Rider foi inspirado no ator Errol Flynn,
+                        famoso por interpretar personagens aventureiros.
+                    </p>
+                </div>
+
+                <div className="card">
+                    <img src={musicaImg} alt='Música' />
+                    <h2>Trilha sonora</h2>
+                    <p>
+                        A música “I See The Light” foi indicada ao Oscar de
+                        Melhor Canção Original.
+                    </p>
+                </div>
+
+            </div>
         </div>
     )
 }

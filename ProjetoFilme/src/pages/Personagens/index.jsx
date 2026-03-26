@@ -7,35 +7,79 @@ import pascalImg from '../img/pascal.jpg';
 function Personagens() {
     return (
         <div className="personagens">
-            <h1>Página dos Personagens</h1> <br />
-            <p className="personagens-description">Essa é a página de personagens do filme Enrolados.</p> <br />
-            <img src={rapunzelImg} alt='Rapunzel'></img>
-            <h2>Rapunzel</h2> <br/>
-            <p className="personagens-description">Nome: Rapunzel</p>
-            <p className="personagens-description">Idade: 18 anos</p>
-            <p className="personagens-description">Personalidade: Curiosa, corajosa e determinada</p>
-            <p className="personagens-description">Aparência: Jovem de 18 anos com grandes olhos verdes e sardas. Sua característica mais marcante são os 21 metros de cabelo loiro, que brilham ao cantar.</p>
+            <p className="home-subtitle">Conheça os personagens de Enrolados</p>
 
-            <h2>Flynn Rider</h2> <br/>
-            <img src={flynnImg} alt='Flynn Rider'></img>
-            <p className="personagens-description">Nome: Flynn Rider (Eugene Fitzherbert)</p>
-            <p className="personagens-description">Idade: 26 anos</p>
-            <p className="personagens-description">Personalidade: Charmoso, audacioso, leal e aventureiro</p>
-            <p className="personagens-description">Aparência: Rapaz moreno, com olhos castanhos e um sorriso malandro, veste colete azul e calças marrom.</p>
+            <div className="personagens-container">
 
-            <h2>Mãe Gothel</h2> <br/>
-            <img src={gothelImg} alt='Mãe Gothel'></img>
-            <p className="personagens-description">Nome: Mãe Gothel</p>
-            <p className="personagens-description">Idade: Aparentemente 40 anos (na verdade mais de 400 anos)</p>
-            <p className="personagens-description">Personalidade: Manipuladora, egoísta e cruel</p>
-            <p className="personagens-description">Aparência: Mulher de cabelos castanhos escuros, olhos verdes, veste capa preta e usa um capuz.</p>
+                <div className="card">
+                    <img src={rapunzelImg} alt="Rapunzel" />
+                    <h2>Rapunzel</h2>
 
-            <h2>Pascal</h2> <br/>
-            <img src={pascalImg} alt='Pascal'></img>
-            <p className="personagens-description">Nome: Pascal</p>
-            <p className="personagens-description">Espécie: Camaleão</p>
-            <p className="personagens-description">Personalidade: Leal, carinhoso, cômico e protetor</p>
-            <p className="personagens-description">Aparência: Camaleão pequeno de cores vibrantes que muda de cor de acordo com seu estado emocional, inicialmente branco/claro.</p>
+                    <p><strong>Idade:</strong> 18 anos</p>
+                    <p><strong>Personalidade:</strong> Curiosa, corajosa e determinada</p>
+                    <p><strong>Habilidade:</strong> Cabelo mágico com poder de cura</p>
+                    <p><strong>Sonho:</strong> Ver as lanternas flutuantes</p>
+                    <p><strong>Dubladora:</strong> Mandy Moore</p>
+
+                    <p className="descricao">
+                        Rapunzel é uma princesa que viveu presa em uma torre durante toda a sua vida.
+                        Ao conhecer Flynn Rider, ela embarca em uma aventura para descobrir o mundo
+                        e a verdade sobre sua origem.
+                    </p>
+                </div>
+
+                <div className="card">
+                    <img src={flynnImg} alt="Flynn Rider" />
+                    <h2>Flynn Rider</h2>
+
+                    <p><strong>Nome verdadeiro:</strong> Eugene Fitzherbert</p>
+                    <p><strong>Idade:</strong> 26 anos</p>
+                    <p><strong>Personalidade:</strong> Charmoso, sarcástico e aventureiro</p>
+                    <p><strong>Habilidade:</strong> Inteligência, agilidade e combate</p>
+                    <p><strong>Passado:</strong> Ladrão procurado pelo reino</p>
+
+                    <p className="descricao">
+                        Flynn Rider é um ladrão procurado que acaba cruzando o caminho de Rapunzel.
+                        No início, ele é egoísta e só pensa em si mesmo, mas ao longo da jornada
+                        mostra seu verdadeiro coração e se torna alguém leal e corajoso.
+                    </p>
+                </div>
+
+                <div className="card">
+                    <img src={gothelImg} alt="Mãe Gothel" />
+                    <h2>Mãe Gothel</h2>
+
+                    <p><strong>Idade:</strong> Mais de 400 anos</p>
+                    <p><strong>Personalidade:</strong> Manipuladora, egoísta e controladora</p>
+                    <p><strong>Motivação:</strong> Manter sua juventude eterna</p>
+                    <p><strong>Habilidade:</strong> Manipulação emocional</p>
+                    <p><strong>Relação:</strong> Finge ser mãe de Rapunzel</p>
+
+                    <p className="descricao">
+                        Mãe Gothel sequestrou Rapunzel ainda bebê para usar o poder mágico de seu cabelo.
+                        Ela mantém a garota presa na torre, manipulando seus sentimentos para que nunca
+                        descubra a verdade sobre sua origem.
+                    </p>
+                </div>
+
+                <div className="card">
+                    <img src={pascalImg} alt="Pascal" />
+                    <h2>Pascal</h2>
+
+                    <p><strong>Espécie:</strong> Camaleão</p>
+                    <p><strong>Personalidade:</strong> Leal, divertido e protetor</p>
+                    <p><strong>Habilidade:</strong> Camuflagem (muda de cor)</p>
+                    <p><strong>Função:</strong> Companheiro de Rapunzel</p>
+                    <p><strong>Destaque:</strong> Expressa emoções sem falar</p>
+
+                    <p className="descricao">
+                        Pascal é o melhor amigo de Rapunzel e está sempre ao seu lado.
+                        Mesmo sendo pequeno, ele é extremamente corajoso e muitas vezes
+                        ajuda a proteger Rapunzel durante suas aventuras.
+                    </p>
+                </div>
+
+            </div>
         </div>
     )
 }

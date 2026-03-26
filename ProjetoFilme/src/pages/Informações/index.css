@@ -1,0 +1,13 @@
+.info-filme img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 12px;
+  margin: 10px auto;
+  display: block;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.info-filme img:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
