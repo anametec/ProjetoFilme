@@ -2,7 +2,7 @@ import './index.css'
 import rapunzelImg from '../img/rapunzel.jpg';
 import flynnImg from '../img/flynn.jpg';
 import gothelImg from '../img/gothel.jpg';
-import pascalImg from '../img/pascal.jpg';
+import pascalImg from '../img/pascal.jpg'; // fazer o import da imagem do Pascal
 
 function Personagens() {
     return (
